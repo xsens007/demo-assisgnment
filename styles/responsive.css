@@ -1,0 +1,55 @@
+/* For Mobile Large (max-width: 420px) */
+@media (max-width: 420px) {
+    /* Adjust styles for Mobile Large here */
+    .nav-container {
+        flex-direction: column;
+    }
+    .side-container {
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .icons {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* For Tablet (min-width: 421px) and your breakpoint rule (you can set your desired breakpoint here) */
+@media (min-width: 421px) and (max-width: YOUR_BREAKPOINT) {
+    /* Adjust styles for Tablet here */
+    .banner-container {
+        gap: 30px;
+    }
+    .banner-description {
+        width: 50%;
+        height: 700px;
+    }
+    .banner-img {
+        width: 50%;
+    }
+    .online-container {
+        padding: 80px;
+    }
+    .online-game-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .instant-container {
+        padding: 60px 20px;
+    }
+    .instant-game-description {
+        padding-left: 0;
+    }
+    .action-container {
+        padding: 80px 20px;
+    }
+    .action-row-5,
+    .action-row-4 {
+        flex-direction: column;
+    }
+    .action-game {
+        width: 100%;
+        justify-content: center;
+        padding: 15px;
+    }
+}
